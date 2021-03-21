@@ -22,7 +22,7 @@ public class Q02 {
 		int current = numbers.get(0);
 		for(int i=1; i<numbers.size(); i++) {
 			int next = numbers.get(i);
-			if(current == 0) {
+			if(current == 0 || current == 1) {
 				current += next;
 			} else {
 				if(next == 0 || next == 1) {
