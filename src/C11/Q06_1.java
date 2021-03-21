@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class Q6_1 {
+public class Q06_1 {
 	
 	public static int solution(int[] food_times, long k) {
 		long sum = 0l;
