@@ -11,10 +11,11 @@ public class Q09 {
 	
 	public static int solution(String s) {
         int answer = 0;
-        PriorityQueue<Integer> pqueue = new PriorityQueue<> ();
+        // 입력 스트링 길이 1일 때 처리
         if(s.length() == 1) {
         	return 1;
         }
+        PriorityQueue<Integer> pqueue = new PriorityQueue<> ();
         List<String> strList = new ArrayList<> ();
         for(int i=1; i<=s.length()/2; i++) {
         	int j=0;
