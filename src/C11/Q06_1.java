@@ -75,14 +75,14 @@ public class Q06_1 {
 		
 		System.out.println(solution(food_times, k));
 	}
-}
-
-class Food {
-	int index;
-	int remain;
 	
-	public Food(int index, int remain) {
-		this.index = index;
-		this.remain = remain;
+	public static class Food {
+		int index;
+		int remain;
+		
+		public Food(int index, int remain) {
+			this.index = index;
+			this.remain = remain;
+		}
 	}
 }
